@@ -1,0 +1,60 @@
+h1{
+    font-family: Seaweed Script, Arial;
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+}
+body{
+    font-family: Nanum Brush Script, Arial;
+    background-color: #cccccc;
+    font-size: 17px;
+}
+
+article{
+    max-width: 800px;
+    margin: auto;
+    padding: 55px;
+    background-color: white;
+    height: 1000px;
+}
+
+.img1, .img2{
+    width: 270px;
+    height: 200px;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    padding-bottom: 35px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px -1px rgba(153,153,153,0.4);
+}
+
+.img1{
+    float: right;
+    transform: rotate(5deg)
+}
+
+.img2{
+    float: left;
+    transform: rotate(357deg)
+}
+
+.ship{
+    position: relative;
+    top: 228px;
+    left: 605px;
+    transform: rotate(5deg);
+    display: inline-block;
+}
+
+.booty{
+    position: relative;
+    top: 227px;
+    right: 182px;
+    transform: rotate(357deg);
+    display: inline-block;
+}
+
+.booty, .ship{
+    font-size: 22px;
+    color: #333333;
+}
